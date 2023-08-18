@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="hu" xmlns="http://www.w3.org/2000/xhtml">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<title></title>
+	
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	
+	<link rel="stylesheet" type="text/css" href="css/local-dev-reset.css" />
+	<link rel="stylesheet" type="text/css" href="telekom-header/frame-ui.css" />
+	<link rel="stylesheet" type="text/css" href="telekom-header/frame-usermenu.css" />
+	<script src="telekom-header/frame-ui.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/reveal.css" />
+	<link rel="stylesheet" type="text/css" href="css/slick.css" />
+	<link rel="stylesheet" type="text/css" href="css/inwb-lp-main.css" />
+	<link rel="stylesheet" type="text/css" href="css/inwb-lp-customlpname.css" />
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  		
+</head>
+<body class="">
+
+
+	<div class="frameContainer">
+
+		<div id="inwb_lp_main_cont">
+		
+			<div id="inwb_custom_lp">
+				<div class="inwb_lap">
+					
+					<h2 class="inwb_fc_primary_dark inwb_fs_32 inwb_fw_extrabold inwb_ta_center inwb_m_t_32">Szülinapi Quiz</h2>
+					<div id="show_question">
+						<p class="inwb_fc_primary_par inwb_fs_24 inwb_fw_normal inwb_ta_center inwb_m_t_32">Üdvözöllek a szülnapi kvízen! Gondoltam a sima ajándékozás már nagyon elcsépelt, ezért kicsit felturbóztam az ajándékod, hogy izgalmasabb legyen. A feladatod az lesz, hogy kitölts egy kvízt. A kvízben 20 kérdés lesz, ami többnyire hozzám köthető. Minél jobban ismersz, annál nagyobb jutalom vár rád. Minden kérdés 20 pontos. Minden helyes válaszod után kapsz 20 pontot. A játék végén pontok alapján vannak ajándékok kategorizálva. Annyi ajándékot gyűjthetsz be, amennyi pontot szerzel.<br /><br /><span class="inwb_fw_extrabold">Sok szerencsét!</span></p>
+						<button onclick="showQuestion()">START</button>
+					</div>
+					<div class="quiz-container" id="quiz_main_cont">
+						<div id="question-container">
+							<p class="inwb_fc_primary_dark inwb_fs_32 inwb_fw_extrabold inwb_ta_center" id="question-text">Question text goes here</p>
+							<div id="answer-buttons" class="btn-container inwb_m_t_32">
+								<button class="btn inwb_fs_24">Answer 1</button>
+								<button class="btn inwb_fs_24">Answer 2</button>
+								<button class="btn inwb_fs_24">Answer 3</button>
+								<button class="btn inwb_fs_24">Answer 4</button>
+							</div>
+						</div>
+						<div id="timer">Time left: <span id="time">0</span></div>
+						<div id="result-container" class="hidden">
+							<p class="inwb_fc_primary_dark inwb_fs_32 inwb_fw_extrabold inwb_ta_center inwb_m_t_36">A pontszámod: <span id="score">0</span></p>
+						</div>
+					</div>
+						<!-- cards -->
+
+						<div class="tarot_card_game_section inwb_section" id="prize_section">
+							<div>
+								<p class="inwb_fc_primary_dark inwb_fs_32 inwb_fw_extrabold inwb_ta_center inwb_m_t_60 inwb_m_b_60"><span id="summ_score"></span></p>
+							</div>
+							<h1 class="inwb_fc_primary_dark inwb_fs_48 inwb_ta_center inwb_fw_extrabold">Válassz a nyeremények közül!</h1>
+							<h1 class="inwb_fc_primary_dark inwb_fs_36 inwb_ta_center inwb_fw_extrabold inwb_m_t_60">20p</h1>
+							<div class="card_container 20p_cont">
+								<div class="card card price_20 prize-btn" id="card1">
+									<div class="front bigmac"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card price_20 prize-btn" id="card2">
+									<div class="front crispy"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card price_20 prize-btn" id="card3">
+									<div class="front poke"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card price_20 prize-btn" id="card4">
+									<div class="front whopper"></div>
+									<div class="back"></div>
+								</div>
+							</div>
+							<h1 class="inwb_fc_primary_dark inwb_fs_36 inwb_ta_center inwb_fw_extrabold inwb_m_t_60">40p</h1>
+							<div class="card_container 40p_cont">
+								<div class="card card price_40 prize-btn" id="card5">
+									<div class="front gift_5000"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card price_40 prize-btn" id="card6">
+									<div class="front massage_30"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card price_40 prize-btn" id="card7">
+									<div class="front wow_1"></div>
+									<div class="back"></div>
+								</div>
+							</div>
+							<h1 class="inwb_fc_primary_dark inwb_fs_36 inwb_ta_center inwb_fw_extrabold inwb_m_t_60">100p</h1>
+							<div class="card_container 100p_cont">
+								<div class="card card price_100 prize-btn" id="card8">
+									<div class="front gift_10000"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card price_100 prize-btn" id="card9">
+									<div class="front cinema"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card price_100 prize-btn" id="card10">
+									<div class="front massage_60"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card price_100 prize-btn" id="card11">
+									<div class="front szinhaz"></div>
+									<div class="back"></div>
+								</div>
+							</div>
+							<h1 class="inwb_fc_primary_dark inwb_fs_36 inwb_ta_center inwb_fw_extrabold inwb_m_t_60">200p</h1>
+							<div class="card_container 200p_cont">
+								<div class="card card card price_20 prize-btn" id="card12">
+									<div class="front gift_15000"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card card price_20 prize-btn" id="card13">
+									<div class="front board_game"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card card price_20 prize-btn" id="card14">
+									<div class="front vegan_cookbook"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card card price_20 prize-btn" id="card15">
+									<div class="front wow_3"></div>
+									<div class="back"></div>
+								</div>
+							</div>
+							<h1 class="inwb_fc_primary_dark inwb_fs_36 inwb_ta_center inwb_fw_extrabold inwb_m_t_60">300p</h1>
+							<div class="card_container 300p_cont">
+								<div class="card card price_300 prize-btn" id="card16">
+									<div class="front gift_20000"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card price_300 prize-btn" id="card18">
+									<div class="front diablo"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card price_300 prize-btn" id="card19">
+									<div class="front witcher"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card price_300 prize-btn" id="card20">
+									<div class="front wow_6"></div>
+									<div class="back"></div>
+								</div>
+							</div>
+							<h1 class="inwb_fc_primary_dark inwb_fs_36 inwb_ta_center inwb_fw_extrabold inwb_m_t_60">400p</h1>
+							<div class="card_container 400p_cont">
+								<div class="card card price_40 prize-btn" id="card21">
+									<div class="front monitor"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card price_40 prize-btn" id="card22">
+									<div class="front razer"></div>
+									<div class="back"></div>
+								</div>
+								<div class="card card price_40 prize-btn" id="card23">
+									<div class="front veja"></div>
+									<div class="back"></div>
+								</div>
+							</div>
+						</div>	
+				</div>
+			</div>
+		
+		</div>
+		
+		<script type="text/javascript" src="js/jquery.reveal.js"></script>
+		<script type="text/javascript" src="js/slick.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
+		<script type="text/javascript" src="js/yt-video.js"></script>
+	</div>
+	
+</body>
+</html>

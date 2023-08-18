@@ -1,0 +1,287 @@
+
+
+
+
+#inwb_lp_main_cont #inwb_custom_lp{
+	
+}
+#inwb_lp_main_cont #inwb_custom_lp .inwb_section{
+	padding:24px 0px;
+}
+#inwb_lp_main_cont #inwb_custom_lp .inwb_lap{
+	max-width:950px; /*902px széles főtartalom*/
+    padding: 60px 12px;
+}
+
+
+#inwb_lp_main_cont #inwb_custom_lp {
+    background: url(../img/birthday-bg.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+#inwb_lp_main_cont #inwb_custom_lp #quiz_main_cont {
+    display: none;
+}
+#inwb_lp_main_cont #inwb_custom_lp #show_question button {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    padding: 30px;
+     margin: 40px auto;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 500;
+}
+#inwb_lp_main_cont #inwb_custom_lp #question-container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 36px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 60px auto;
+    width: 100%;
+    max-width: 768px;
+}
+
+#inwb_lp_main_cont #inwb_custom_lp.btn-container {
+    margin-top: 10px;
+}
+
+#inwb_lp_main_cont #inwb_custom_lp .btn {
+    display: block;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 5px;
+    background-color: #007bffa4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+#inwb_lp_main_cont #inwb_custom_lp .btn:hover {
+    background-color: #0056b3;
+}
+
+#inwb_lp_main_cont #inwb_custom_lp #result-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#inwb_lp_main_cont #inwb_custom_lp #reward-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#inwb_lp_main_cont #inwb_custom_lp .hidden {
+    display: none;
+}
+
+#inwb_lp_main_cont #inwb_custom_lp #timer {
+   margin: 24px auto;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+#inwb_lp_main_cont #inwb_custom_lp .wrong-answer {
+    color: red;
+}
+#inwb_lp_main_cont #inwb_custom_lp #result-container p {
+    padding: 4px 12px 6px;
+    font-size: 18px;
+    line-height: 24px;
+}
+#inwb_lp_main_cont #inwb_custom_lp .result-question {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 36px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 12px auto;
+}
+
+
+
+#inwb_lp_main_cont #inwb_custom_lp .tarot_card_game_section {
+    width: 100%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    max-width: 1300px;
+    display: none;
+}
+#inwb_lp_main_cont #inwb_custom_lp .card_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-wrap: wrap;
+    margin: 30px auto 0px;
+    overflow: visible;
+    position: relative;
+    /* height: 500px; */
+}
+
+#inwb_lp_main_cont #inwb_custom_lp .card {
+	/* position: absolute; */
+    position: relative;
+	width: 200px;
+	height: 320px;
+	margin: 0 20px;
+	transform-style: preserve-3d;
+	transition: transform 1s;
+    transform: rotateY(180deg);
+    margin: 8px;
+    cursor: pointer;
+}
+
+#inwb_lp_main_cont #inwb_custom_lp .front, .back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+}
+
+#inwb_lp_main_cont #inwb_custom_lp .front {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.bigmac {
+    background-image: url('../img/20p/card-bigmac.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.crispy {
+    background-image: url('../img/20p/card-crispy.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.whopper {
+    background-image: url('../img/20p/card-poke.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.poke {
+    background-image: url('../img/20p/card-whopper.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.gift_5000 {
+    background-image: url('../img/40p/card-5000ft.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.massage_30 {
+    background-image: url('../img/40p/card-massage-30min.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.wow_1 {
+    background-image: url('../img/40p/card-wow-1honap.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.gift_10000 {
+    background-image: url('../img/100p/card-10000ft.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.cinema {
+    background-image: url('../img/100p/card-cinema.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.massage_60 {
+    background-image: url('../img/100p/card-massage-60min.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.szinhaz {
+    background-image: url('../img/100p/card-szinhaz.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.gift_15000 {
+    background-image: url('../img/200p/card-15000ft.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.board_game {
+    background-image: url('../img/200p/card-board-game.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.vegan_cookbook {
+    background-image: url('../img/200p/card-vegan-cookbook.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.wow_3 {
+    background-image: url('../img/200p/card-wow-3honap.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.gift_20000 {
+    background-image: url('../img/300p/card-20000ft.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.aquaworld {
+    background-image: url('../img/300p/card-aquaworld.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.diablo {
+    background-image: url('../img/300p/card-diablo.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.witcher {
+    background-image: url('../img/300p/card-witcher.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.wow_6 {
+    background-image: url('../img/300p/card-wow-6honap.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.monitor {
+    background-image: url('../img/400p/card-monitor.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.razer {
+    background-image: url('../img/400p/card-razer-huntsman.png');
+}
+#inwb_lp_main_cont #inwb_custom_lp .front.veja {
+    background-image: url('../img/400p/card-veja-sneekers.png');
+}
+
+#inwb_lp_main_cont #inwb_custom_lp .back {
+	background-image: url('../img/card-back.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+	transform: rotateY(180deg);
+    overflow: hidden;
+}
+#inwb_lp_main_cont #inwb_custom_lp .card.flipped {
+	transform: rotateY(0deg);
+}
+#inwb_lp_main_cont #inwb_custom_lp .card.card_fix {
+    pointer-events: none;
+}
+/* 1200+ - XL */
+@media only screen and (min-width: 1200px) {
+	
+}
+/* 960-1199 - L */
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	
+}
+/* 768-959 - M */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+}
+/* 576-767 - S */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	
+}
+/* 360-575 -XS */
+@media only screen and (max-width: 575px) {	
+
+}
+
+@media (max-width: 1200px){
+	
+}
+@media (max-width: 1188px){
+
+}
+@media (max-width: 960px){
+
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 575px){
+    #inwb_lp_main_cont #inwb_custom_lp .card {
+        width: 150px;
+        height: 200px;
+    }
+}
+@media (max-width: 420px){
+	
+}
+@media (max-width: 360px){
+	
+}

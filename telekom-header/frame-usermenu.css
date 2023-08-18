@@ -1,0 +1,385 @@
+header#frameHeader #app-telekomfiok .btn{color:#e20074}
+header#frameHeader #app-telekomfiok input.btn{-webkit-appearance:none;-moz-appearance:none;appearance:none}
+header#frameHeader #app-telekomfiok #logoutSubmit{transition:none!important}
+header#frameHeader #app-telekomfiok .btn_icon_basket{height:36px;padding:0;text-indent:-9999px;width:36px}
+header#frameHeader #app-telekomfiok .btn_icon_basket:before{-moz-transition:opacity .3s ease-out;-ms-transition:opacity .3s ease-out;-o-transition:opacity .3s ease-out;-webkit-transition:opacity .3s ease-out;background:url(../img/ico_sprite_small.png) -32px -181px no-repeat;content:'';height:36px;left:0;position:absolute;top:0;transition:opacity .3s ease-out;width:36px}
+header#frameHeader #app-telekomfiok .btn_icon_basket:after,header#frameHeader #app-telekomfiok .btn_icon_search:before{-moz-transition:opacity .3s ease-out;-ms-transition:opacity .3s ease-out;-o-transition:opacity .3s ease-out;content:'';position:absolute}
+header#frameHeader #app-telekomfiok .btn_icon_basket:hover:before{opacity:0}
+header#frameHeader #app-telekomfiok .btn_icon_basket:after{-webkit-transition:opacity .3s ease-out;background:url(../img/ico_sprite_small.png) -68px -181px no-repeat;height:36px;left:0;opacity:0;top:0;transition:opacity .3s ease-out;width:36px}
+header#frameHeader #app-telekomfiok .btn_icon_basket:focus:after,header#frameHeader #app-telekomfiok .btn_icon_basket:hover:after{opacity:1}
+header#frameHeader #app-telekomfiok .btn.btn_icon_profile{background:url(../img/user-login.svg) 15px center no-repeat #e20074;border:none;color:#fff;font-family:Tele-Grotesk-NextBold;font-size:16px!important;height:44px;line-height:44px!important;margin:0!important;max-width:200px;overflow:hidden;padding:0 20px 0 50px!important;text-overflow:ellipsis;white-space:nowrap}
+header#frameHeader #app-telekomfiok .btn.btn_icon_profile span{color:#fff;font-size:16px}
+header#frameHeader #app-telekomfiok .btn.btn_icon_profile.btn_icon_profile--has-picture{background-image:none}
+header#frameHeader #app-telekomfiok .btn.btn_icon_profile .btn_icon_profile_image{display:block;left:15px;overflow:hidden;position:absolute;top:6px}
+header#frameHeader #app-telekomfiok .btn.btn_icon_profile .btn_icon_profile_image img{border-radius:50%;height:24px;width:24px}
+header#frameHeader #app-telekomfiok .btn.btn_icon_profile.btn_icon_profile--has-additonal-data{font-size:12px;line-height:14px}
+header#frameHeader #app-telekomfiok .btn.btn_icon_profile.btn_icon_profile--has-additonal-data .logged-in-as{display:block;font-size:10px;text-transform:lowercase}
+header#frameHeader #app-telekomfiok .btn.btn_icon_profile.btn_icon_profile--has-additonal-data .admin-name{display:block}
+header#frameHeader #app-telekomfiok .btn_icon_search{height:36px;padding:0;text-indent:-9999px;width:36px}
+header#frameHeader #app-telekomfiok .btn_icon_search:before{background:url(../img/ico_sprite_small.png) -32px -2px no-repeat;height:36px;left:0;top:0;width:36px;-webkit-transition:opacity .3s ease-out;transition:opacity .3s ease-out}
+header#frameHeader #app-telekomfiok .btn_icon_search:after,header#frameHeader #app-telekomfiok em.btn.btn_icon_profile{height:36px;width:36px;-moz-transition:opacity .3s ease-out;-ms-transition:opacity .3s ease-out;-o-transition:opacity .3s ease-out}
+header#frameHeader #app-telekomfiok .btn_icon_search:hover:before{opacity:0}
+header#frameHeader #app-telekomfiok .btn_icon_search:after{background:url(../img/ico_sprite_small.png) -68px -2px no-repeat;content:'';left:0;opacity:0;position:absolute;top:0;-webkit-transition:opacity .3s ease-out;transition:opacity .3s ease-out}
+header#frameHeader #app-telekomfiok .usersubMenu,header#frameHeader #app-telekomfiok.opened .usersubMenu{background-clip:padding-box;background-color:#fff;border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,.12);display:inline-block;height:auto;position:absolute;transition:height .2s .3s,opacity .2s,padding-top .3s,z-index .2s;box-sizing:border-box}
+header#frameHeader #app-telekomfiok .btn_icon_search:focus:after,header#frameHeader #app-telekomfiok .btn_icon_search:hover:after{opacity:1}
+/*@font-face{font-family:Tele-Grotesk-ScreenRegular;font-weight:400;font-style:normal;src:url(https://www.telekom.hu/static-la/alkalmazasok/lp/font/TeleGroteskScreen-Regular.woff) format('woff')}
+@font-face{font-family:Tele-Grotesk-ScreenMedium;font-weight:400;font-style:normal;src:url(https://www.telekom.hu/static-la/alkalmazasok/lp/font/TeleGroteskScreen-Medium.woff) format('woff')}
+@font-face{font-family:Tele-Grotesk-ScreenBold;font-weight:400;font-style:normal;src:url(https://www.telekom.hu/static-la/alkalmazasok/lp/font/TeleGroteskScreen-Bold.woff) format('woff')}
+@font-face{font-family:Tele-Grotesk-ScreenUltra;font-weight:400;font-style:normal;src:url(https://www.telekom.hu/static-la/alkalmazasok/lp/font/TeleGroteskScreen-Ultra.woff) format('woff')}
+@font-face{font-family:Tele-GroteskEENor;font-weight:400;font-style:normal;src:url(https://www.telekom.hu/static-la/alkalmazasok/lp/font/tele-grotteskee-norm-webfont.woff) format('woff')}
+@font-face{font-family:Tele-GroteskEEHal;font-weight:400;font-style:normal;src:url(https://www.telekom.hu/static-la/alkalmazasok/lp/font/tele-grotteskee-halb-webfont.woff) format('woff')}
+@font-face{font-family:Tele-GroteskEEFet;font-weight:400;font-style:normal;src:url(https://www.telekom.hu/static-la/alkalmazasok/lp/font/tele-grotteskee-fett-webfont.woff) format('woff')}
+@font-face{font-family:Tele-GroteskEEUlt;font-weight:400;font-style:normal;src:url(https://www.telekom.hu/static-la/alkalmazasok/lp/font/tele-grotteskee-ultr-webfont.woff) format('woff')}
+@font-face{font-family:Tele-Grotesk-NextRegular;font-weight:400;font-style:normal;src:url(https://www.telekom.hu/static-la/alkalmazasok/lp/font/telegrotesknext-regular.woff) format('woff')}
+@font-face{font-family:Tele-Grotesk-NextMedium;font-weight:400;font-style:normal;src:url(https://www.telekom.hu/static-la/alkalmazasok/lp/font/telegrotesknext-medium.woff) format('woff')}
+@font-face{font-family:Tele-Grotesk-NextBold;font-weight:400;font-style:normal;src:url(https://www.telekom.hu/static-la/alkalmazasok/lp/font/telegrotesknext-bold.woff) format('woff')}
+@font-face{font-family:Tele-Grotesk-NextUltra;font-weight:400;font-style:normal;src:url(https://www.telekom.hu/static-la/alkalmazasok/lp/font/telegrotesknext-ultra.woff) format('woff')}*/
+header#frameHeader #app-telekomfiok.opened .usersubMenu{min-height:365px!important;opacity:1;padding:40px 24px;visibility:visible;z-index:1}
+header#frameHeader #app-telekomfiok.opened .usersubMenu .navAccount,header#frameHeader #app-telekomfiok.opened .usersubMenu .navUser{opacity:1}
+header#frameHeader #app-telekomfiok .usersubMenu{left:calc(100% / 2 - (100vw / 2));max-width:initial;opacity:0;padding:10px 24px;top:68px;visibility:hidden;width:100vw;z-index:-1}
+header#frameHeader #app-telekomfiok .usersubMenu .navAccount,header#frameHeader #app-telekomfiok .usersubMenu .navUser{transition:opacity .1s;opacity:0}
+header#frameHeader #app-telekomfiok .usersubMenu ul{display:block;margin:0;padding:0}
+header#frameHeader #app-telekomfiok .usersubMenu ul li{box-sizing:border-box;float:left;list-style-type:none;padding:40px 12px 9px;text-align:center;width:16.6%}
+header#frameHeader #app-telekomfiok .usersubMenu ul li a{font-family:Tele-Grotesk-NextBold;font-size:18px;line-height:23.4px;color:#333;text-decoration:none}
+header#frameHeader #app-telekomfiok .usersubMenu ul li a:hover{color:#e20074}
+header#frameHeader #app-telekomfiok .usersubMenu ul li a:visited{color:#333}
+header#frameHeader #app-telekomfiok .usersubMenu ul li a h4{font-weight:400;margin-top:0;position:relative}
+header#frameHeader #app-telekomfiok .usersubMenu ul li a h4 .new-label{display:none}
+header#frameHeader #app-telekomfiok .usersubMenu ul li a img{height:100%;width:100%;min-height:64px;max-height:64px}
+header#frameHeader #app-telekomfiok .usersubMenu ul li a img.is-desktop{display:inline-block}
+header#frameHeader #app-telekomfiok .usersubMenu ul li a img.is-mobile{display:none}
+header#frameHeader #app-telekomfiok .usersubMenu small{display:block;font-family:Tele-Grotesk-NextRegular;line-height:1.2;font-size:15px}
+header#frameHeader #app-telekomfiok .welcomeText{display:inline-block;width:100%;color:#e20074;font-family:Tele-Grotesk-NextRegular;font-size:30px;font-weight:400;padding:0 24px 5px;margin:0;box-sizing:border-box}
+header#frameHeader #app-telekomfiok .welcomeTextEngagementLevel{display:inline-block;font-family:Tele-Grotesk-NextRegular;font-size:15px;padding:0 0 0 24px}
+header#frameHeader #app-telekomfiok .welcomeTextEngagementLevel strong{color:#E20074}
+header#frameHeader #app-telekomfiok .navAccount{margin:0 auto;max-width:1108px;padding:24px 0;width:100%}
+header#frameHeader #app-telekomfiok .navAccount small{display:block;width:100%}
+header#frameHeader #app-telekomfiok .navPersonal{float:left}
+header#frameHeader #app-telekomfiok .logoutSubmit{float:right}
+header#frameHeader #app-telekomfiok .navUser{display:block;height:auto;width:100%;margin:0 auto;max-width:1108px}
+header#frameHeader #app-telekomfiok .navUser nav a{color:#333;display:inline-block;font-size:15px;font-family:Tele-Grotesk-NextRegular;padding:18px 24px}
+header#frameHeader #app-telekomfiok .navUser nav a:hover{text-decoration:none}
+header#frameHeader #app-telekomfiok .new-profil{color:#e20074;display:inline-block;font-size:11px;height:100%;list-style-type:none;margin:0;padding:0;overflow:hidden;width:132px}
+header#frameHeader #app-telekomfiok .new-profil h4{margin:0}
+header#frameHeader #app-telekomfiok .new-profil .loginTitle{font-size:11px}
+header#frameHeader #app-telekomfiok .new-profil .loginSubtitle{color:#e20074}
+header#frameHeader #app-telekomfiok .loginTitle,header#frameHeader #app-telekomfiok .profilPic+li h4{font-family:Tele-Grotesk-NextBold;color:#e20074;margin:0;word-wrap:break-word;font-weight:400}
+header#frameHeader #app-telekomfiok .loginSubtitle,header#frameHeader #app-telekomfiok .profilPic+li small{display:block;font-family:Tele-Grotesk-NextRegular;font-size:11px;font-weight:400;overflow:hidden;text-overflow:ellipsis;width:100%}
+header#frameHeader #app-telekomfiok .loginEngagementLevel{color:#e20074;font-family:Tele-Grotesk-NextBold;font-size:11px;font-weight:400;margin:0;overflow:hidden;text-overflow:ellipsis;width:100%}
+header#frameHeader #app-telekomfiok .profilPic{display:table-cell;height:60px;padding-top:13px;box-sizing:border-box}
+header#frameHeader #app-telekomfiok .btn,header#frameHeader #app-telekomfiok .profilPic img{cursor:pointer;text-transform:uppercase;text-indent:0;-moz-box-sizing:border-box;-o-box-sizing:border-box}
+header#frameHeader #app-telekomfiok .profilPic .btn.btn_icon_profile{margin-top:0}
+header#frameHeader #app-telekomfiok .profilPic img{font-family:Tele-Grotesk-NextUltra;font-size:15px;text-decoration:none;display:inline-block;margin-top:0;margin-right:6px;max-height:36px;max-width:36px;border:2px solid #e20074;color:#e20074;position:relative;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;border-radius:3px;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out}
+header#frameHeader #app-telekomfiok .profilName,header#frameHeader #app-telekomfiok .profilPic+li{display:table-cell;height:60px;max-width:90px;vertical-align:middle;line-height:12px}
+header#frameHeader #app-telekomfiok .tLogin{list-style-type:none}
+header#frameHeader #app-telekomfiok.tf-user .contracts-list{padding:18px 0 0;width:100%}
+header#frameHeader #app-telekomfiok.tf-user .contracts-list>ul{display:-moz-flex;display:-webkit-flex;display:flex;-moz-align-content:stretch;-webkit-align-content:stretch;align-content:stretch}
+header#frameHeader #app-telekomfiok.tf-user .navAccount{padding-bottom:40px}
+header#frameHeader #app-telekomfiok.tf-user .navAccount>ul:after,header#frameHeader #app-telekomfiok.tf-user .navAccount>ul:before{content:" ";display:table}
+header#frameHeader #app-telekomfiok.tf-user .navAccount>ul:after{clear:both}
+header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li{border-right:1px solid #d6d6d6;padding:6px 24px 10px;text-align:left}
+header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li:last-child{border-right:none}
+header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li>h3{color:#e20074;font-family:Tele-Grotesk-NextBold;font-size:18px;font-weight:400;line-height:24px;margin:0 0 26px;min-height:48px;word-break:break-all}
+header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li .contract-desc{font-family:Tele-Grotesk-NextRegular;font-size:15px;line-height:18px;margin:0 0 10px;word-spacing:1px}
+header#frameHeader #app-telekomfiok.tf-user .contract-type{display:block;font-family:Tele-Grotesk-NextRegular;font-size:15px;line-height:18px;margin:0 0 40px;padding:0 0 0 36px;position:relative}
+header#frameHeader #app-telekomfiok.tf-user .contract-type img{height:auto;left:0;max-width:26px;position:absolute;top:50%;transform:translateY(-50%);-moz-transform:translateY(-50%);-webkit-transform:translateY(-50%)}
+header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li>.navPersonal a{display:block;font-family:Tele-Grotesk-NextRegular;font-size:15px;line-height:18px;margin:0 0 12px;padding:0;text-decoration:underline}
+header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li>.navPersonal a:hover{text-decoration:none}
+header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li>.navPersonal a:last-child{margin:0}
+header#frameHeader #app-telekomfiok.tf-user .navUser .navPersonal a{text-decoration:underline}
+header#frameHeader #app-telekomfiok.tf-user .navUser .navPersonal a:hover{text-decoration:none}
+header#frameHeader #app-telekomfiok.tf-user .navAccount>ul{width:100%;position:relative}
+header#frameHeader #app-telekomfiok.tf-user .contracts-add,header#frameHeader #app-telekomfiok.tf-user .contracts-type{position:absolute;top:0;right:0}
+header#frameHeader #app-telekomfiok.tf-user .contracts-type{height:50%;margin-left:auto;padding:6px 0 10px 5px;border-left:solid 1px #d6d6d6}
+header#frameHeader #app-telekomfiok.tf-user .contracts-type>div{height:100%;display:flex;flex-wrap:wrap;align-content:flex-end}
+header#frameHeader #app-telekomfiok.tf-user .contracts-type>div .link-all-subscription{width:100%;color:#e20074;text-decoration:underline}
+header#frameHeader #app-telekomfiok.tf-user .contracts-type>div .link-all-subscription:hover{text-decoration:none}
+header#frameHeader #app-telekomfiok.tf-user .contracts-type>div>ul{padding-bottom:7px}
+header#frameHeader #app-telekomfiok.tf-user .contracts-type>div>ul>li{width:auto;padding:5px 11px 0 0}
+header#frameHeader #app-telekomfiok.tf-user .contracts-type>div>ul>li:first-child{padding-left:19px}
+header#frameHeader #app-telekomfiok.tf-user .contracts-type>div>ul>li>img{height:24px}
+header#frameHeader #app-telekomfiok.tf-user .contracts-add{top:50%;height:50%;border-left:solid 1px #d6d6d6;text-align:left}
+header#frameHeader #app-telekomfiok.tf-user .contracts-add:before{content:"";height:1px;width:100%;margin:-33px 0 0 -49px;position:absolute;background:#d6d6d6}
+header#frameHeader #app-telekomfiok.tf-user .contracts-add a{padding-top:32px;font-size:18px;line-height:18px;text-align:left}
+header#frameHeader #app-telekomfiok.tf-user .contracts-add a:hover{color:#333}
+header#frameHeader #app-telekomfiok.tf-user .contracts-add a:hover span{text-decoration:none}
+header#frameHeader #app-telekomfiok.tf-user .contracts-add a img{width:24px;height:24px;max-height:24px;min-height:24px;padding:8px 6px 0 0;float:left}
+header#frameHeader #app-telekomfiok.tf-user .contracts-add a span{width:100px;display:inline-block;text-decoration:underline}
+header#frameHeader #app-telekomfiok .btn{margin:13px 11px 0 0;padding:10px 20px 8px;font-family:Tele-Grotesk-NextUltra;font-size:15px;line-height:17px;text-decoration:none;display:inline-block;min-height:36px;min-width:36px;border:2px solid #e20074;position:relative;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out}
+header#frameHeader #app-telekomfiok a.btn:focus,header#frameHeader #app-telekomfiok a.btn:hover,header#frameHeader #app-telekomfiok em.btn:hover,header#frameHeader #app-telekomfiok span.btn:hover{background-color:#e20074;color:#fff}
+header#frameHeader #app-telekomfiok a.btn:focus{background-color:#e20074;color:#fff;outline:0}
+header#frameHeader #app-telekomfiok a.btn.active,header#frameHeader #app-telekomfiok a.btn:active,header#frameHeader #app-telekomfiok span.btn:active{background-color:#bf0a67;border-color:transparent;color:#fff}
+header#frameHeader #app-telekomfiok .btn_gray{background-color:#fff;border:2px solid rgba(51,51,51,.6);color:#333}
+header#frameHeader #app-telekomfiok .btn_gray:focus,header#frameHeader #app-telekomfiok .btn_gray:hover{background-color:rgba(51,51,51,.6);border-color:transparent;color:#fff;outline:0}
+header#frameHeader #app-telekomfiok .btn_gray:active{border-color:transparent;background-color:rgba(51,51,51,.8);color:#fff}
+header#frameHeader #app-telekomfiok .profilPic .btn_icon_profile{margin:0 6px 0 0}
+header#frameHeader #app-telekomfiok em.btn.btn_icon_profile{background:url(../img/my_profile_outline_magenta.svg) center center no-repeat;background-size:28px 28px;overflow:hidden;padding:0;text-indent:-9999px;-webkit-transition:opacity .3s ease-out;transition:opacity .3s ease-out}
+header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:after,header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:before{opacity:0;-webkit-transition:opacity .3s ease-out;-moz-transition:opacity .3s ease-out;-ms-transition:opacity .3s ease-out;-o-transition:opacity .3s ease-out;content:'';height:34px;left:-1px;top:-1px;width:34px;position:absolute}
+header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:active{border:2px solid #bf0a67}
+header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:before{background:url(../img/my_profile_outline_white.svg) center center no-repeat #e20074;background-size:28px 28px;transition:opacity .3s ease-out}
+header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:active:before{background-color:#bf0a67}
+header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:after{background:url(../img/my_profile_filled_magenta_onmousepress.svg) center center no-repeat;background-size:28px 28px;transition:opacity .3s ease-out}
+header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile.logged-in:before{background:url(../img/my_profile_filled_white.svg) center center no-repeat #e20074;background-size:28px 28px;content:'';height:34px;left:-1px;opacity:1;position:absolute;top:-1px;width:34px;-webkit-transition:opacity .3s ease-out;-moz-transition:opacity .3s ease-out;-ms-transition:opacity .3s ease-out;-o-transition:opacity .3s ease-out;transition:opacity .3s ease-out}
+header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile{background:url(../img/my_profile_filled_magenta.svg) center center no-repeat #fff;background-size:28px 28px;border:2px solid #e20074}
+header#frameHeader #app-telekomfiok em.btn.btn_icon_profile.logged-in:before,header#frameHeader #app-telekomfiok em.btn.btn_icon_profile.logged-in:hover:before,header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:hover:before,header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile:before{opacity:1}
+header#frameHeader #app-telekomfiok em.btn.btn_icon_profile.logged-in:hover,header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile:hover{background:url(../img/my_profile_filled_magenta.svg) center center no-repeat #fff;background-size:28px 28px;border:2px solid #e20074}
+header#frameHeader #app-telekomfiok em.btn.btn_icon_profile.logged-in:active:after,header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile:active:after{opacity:1}
+.touch header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:hover{background-color:#fff}
+.touch header#frameHeader #app-telekomfiok em.btn.btn_icon_profile.logged-in:hover:before,.touch header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:hover:after,.touch header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:hover:before,.touch header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile:hover:after{opacity:0}
+.touch header#frameHeader #app-telekomfiok em.btn.btn_icon_profile.logged-in:hover:before,.touch header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile:before,.touch header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile:hover:before{opacity:1}
+.touch header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile:hover{background-color:#e20074}
+header#frameHeader #app-telekomfiok a.link-m{padding:0 0 12px;font-family:Tele-Grotesk-NextRegular;font-size:15px;color:#333}
+header#frameHeader #app-telekomfiok a.link-m.active{color:#e20074;text-decoration:none;font-family:Tele-Grotesk-NextBold}
+header#frameHeader #app-telekomfiok .btm{height:0;padding-bottom:0;overflow:hidden;display:block;font-family:Tele-Grotesk-NextRegular;font-size:15px;color:#333}
+header#frameHeader #app-telekomfiok .btm.opened{height:auto;padding-bottom:12px;transition:all 0s ease-out}
+header#frameHeader #app-telekomfiok .btn_with_text{padding:8px 18px 6px 50px;margin-right:0;text-indent:0;width:auto}
+header#frameHeader #app-telekomfiok .btn_with_text.btn_icon_profile:after,header#frameHeader #app-telekomfiok .btn_with_text.btn_icon_profile:before{left:12px}
+header#frameHeader #app-telekomfiok .btn_left{float:left}
+header#frameHeader #app-telekomfiok .btn_right{float:right}
+header#frameHeader #app-telekomfiok .notif.hide,header#frameHeader #app-telekomfiok .notif.show,header#frameHeader #app-telekomfiok .notif.update{-moz-border-radius:11px;-ms-border-radius:11px;-o-border-radius:11px;-webkit-border-radius:11px;background:#e20074;border-radius:11px;border:2px solid #fff;box-sizing:border-box;color:#fff;display:block;font-family:Tele-Grotesk-NextUltra;font-size:15px;line-height:18px;min-height:22px;min-width:22px;padding:0 5px 0 3px;text-align:center;text-indent:2px;z-index:10;position:absolute;right:-10px;opacity:1;top:-9px}
+header#frameHeader #app-telekomfiok .notif.show{animation:show-up .3s ease-in}
+header#frameHeader #app-telekomfiok .notif.update{animation:update .3s ease-in}
+header#frameHeader #app-telekomfiok .notif.hide{animation:hide .3s ease-in;transition:visibility .3s ease-in-out,opacity .3s ease-in-out;visibility:hidden}
+@keyframes show-up{0%{transform:scale(0)}
+50%{transform:scale(1.2)}
+100%{transform:scale(1)}
+}
+@keyframes update{0%,100%{transform:scale(1)}
+50%{transform:scale(1.2)}
+}
+@keyframes hide{0%{transform:scale(1)}
+100%{transform:scale(0)}
+}
+html.responsiveFrame .frameconfig-menubg--transparent.frameconfig-menucolor--dark header#frameHeader #app-telekomfiok .btn.btn_icon_profile{background:url(../img/user-login-magenta.svg) 15px center no-repeat #fff!important;border:none;color:#e20074;padding:0 20px 0 50px}
+html.responsiveFrame .frameconfig-menubg--transparent.frameconfig-menucolor--dark header#frameHeader #app-telekomfiok .btn.btn_icon_profile span{color:#e20074}
+html.responsiveFrame .frameconfig-menubg--transparent.frameconfig-menucolor--dark header#frameHeader #app-telekomfiok.opened .btn.btn_icon_profile,html.responsiveFrame .frameconfig-menubg--transparent.frameconfig-menucolor--dark header#frameHeader .opened #app-telekomfiok .btn.btn_icon_profile{background:url(../img/user-login.svg) 15px center no-repeat #e20074!important;border:none;color:#fff!important}
+html.responsiveFrame .frameconfig-menubg--transparent.frameconfig-menucolor--dark header#frameHeader #app-telekomfiok.opened .btn.btn_icon_profile span,html.responsiveFrame .frameconfig-menubg--transparent.frameconfig-menucolor--dark header#frameHeader .opened #app-telekomfiok .btn.btn_icon_profile span{color:#fff!important}
+.globalMenuBg{transition:background-color .2s!important}
+.globalMenuBg.tf-opened{background-color:#fff}
+#telekomfiokLeftMenu{visibility:visible!important}
+#frameHeader .headerWrapper .mainMenuWrapper .buttons-holder{display:flex!important}
+@media (max-width:1151px){html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu,html.responsiveFrame header#frameHeader #app-telekomfiok.opened .usersubMenu{background-clip:padding-box;background-color:#fff;border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,.12);display:inline-block;height:auto;position:absolute;transition:height .2s .3s,opacity .2s,padding-top .3s,z-index .2s}
+html.responsiveFrame header#frameHeader #app-telekomfiok.opened .usersubMenu{box-sizing:border-box;min-height:365px!important;opacity:1;padding:40px 24px;visibility:visible;z-index:1}
+html.responsiveFrame header#frameHeader #app-telekomfiok.opened .usersubMenu .navAccount,html.responsiveFrame header#frameHeader #app-telekomfiok.opened .usersubMenu .navUser{opacity:1}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu{box-sizing:border-box;left:calc(100% / 2 - (100vw / 2));max-width:initial;opacity:0;padding:10px 24px;top:68px;visibility:hidden;width:100vw;z-index:-1}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu .navAccount,html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu .navUser{transition:opacity .1s;opacity:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu ul{display:block;margin:0;padding:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu ul li{box-sizing:border-box;float:left;list-style-type:none;padding:40px 12px 9px;text-align:center;width:16.6%}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu ul li a{font-family:Tele-Grotesk-NextBold;font-size:18px;line-height:23.4px;color:#333;text-decoration:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu ul li a:hover{color:#e20074}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu ul li a:visited{color:#333}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu ul li a h4{font-weight:400;margin-top:0;position:relative}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu ul li a h4 .new-label{display:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu ul li a img{height:100%;width:100%;min-height:64px;max-height:64px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu ul li a img.is-desktop{display:inline-block}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu ul li a img.is-mobile{display:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu small{display:block;font-family:Tele-Grotesk-NextRegular;line-height:1.2;font-size:15px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .welcomeText{display:inline-block;width:100%;color:#e20074;font-family:Tele-Grotesk-NextRegular;font-size:30px;font-weight:400;padding:0 24px 5px;margin:0;box-sizing:border-box}
+html.responsiveFrame header#frameHeader #app-telekomfiok .welcomeTextEngagementLevel{display:inline-block;font-family:Tele-Grotesk-NextRegular;font-size:15px;padding:0 0 0 24px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .welcomeTextEngagementLevel strong{color:#E20074}
+html.responsiveFrame header#frameHeader #app-telekomfiok .navAccount{margin:0 auto;max-width:1108px;padding:24px 0;width:100%}
+html.responsiveFrame header#frameHeader #app-telekomfiok .navAccount small{display:block;width:100%}
+html.responsiveFrame header#frameHeader #app-telekomfiok .navPersonal{float:left}
+html.responsiveFrame header#frameHeader #app-telekomfiok .logoutSubmit{float:right}
+html.responsiveFrame header#frameHeader #app-telekomfiok .navUser{display:block;height:auto;width:100%;margin:0 auto;max-width:1108px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .navUser nav a{color:#333;display:inline-block;font-size:15px;font-family:Tele-Grotesk-NextRegular;padding:18px 24px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .navUser nav a:hover{text-decoration:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok .new-profil{color:#e20074;display:inline-block;font-size:11px;height:100%;list-style-type:none;margin:0;padding:0;overflow:hidden;width:132px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .new-profil h4{margin:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok .new-profil .loginTitle{font-size:11px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .new-profil .loginSubtitle{color:#e20074}
+html.responsiveFrame header#frameHeader #app-telekomfiok .loginTitle,html.responsiveFrame header#frameHeader #app-telekomfiok .profilPic+li h4{font-family:Tele-Grotesk-NextBold;color:#e20074;margin:0;word-wrap:break-word;font-weight:400}
+html.responsiveFrame header#frameHeader #app-telekomfiok .loginSubtitle,html.responsiveFrame header#frameHeader #app-telekomfiok .profilPic+li small{display:block;font-family:Tele-Grotesk-NextRegular;font-size:11px;font-weight:400;overflow:hidden;text-overflow:ellipsis;width:100%}
+html.responsiveFrame header#frameHeader #app-telekomfiok .loginEngagementLevel{color:#e20074;font-family:Tele-Grotesk-NextBold;font-size:11px;font-weight:400;margin:0;overflow:hidden;text-overflow:ellipsis;width:100%}
+html.responsiveFrame header#frameHeader #app-telekomfiok .profilPic{display:table-cell;height:60px;padding-top:13px;box-sizing:border-box}
+html.responsiveFrame header#frameHeader #app-telekomfiok .profilPic .btn.btn_icon_profile{margin-top:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok .profilPic img{cursor:pointer;font-family:Tele-Grotesk-NextUltra;font-size:15px;text-transform:uppercase;text-decoration:none;display:inline-block;margin-top:0;margin-right:6px;max-height:36px;max-width:36px;border:2px solid #e20074;color:#e20074;text-indent:0;position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;border-radius:3px;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out}
+html.responsiveFrame header#frameHeader #app-telekomfiok .profilName,html.responsiveFrame header#frameHeader #app-telekomfiok .profilPic+li{display:table-cell;height:60px;max-width:90px;vertical-align:middle;line-height:12px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .tLogin{list-style-type:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-list{padding:18px 0 0;width:100%}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-list>ul{display:-moz-flex;display:-webkit-flex;display:flex;-moz-align-content:stretch;-webkit-align-content:stretch;align-content:stretch}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .navAccount{padding-bottom:40px}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .navAccount>ul:after,html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .navAccount>ul:before{content:" ";display:table}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .navAccount>ul:after{clear:both}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li{border-right:1px solid #d6d6d6;padding:6px 24px 10px;text-align:left}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li:last-child{border-right:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li>h3{color:#e20074;font-family:Tele-Grotesk-NextBold;font-size:18px;font-weight:400;line-height:24px;margin:0 0 26px;min-height:48px;word-break:break-all}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li .contract-desc{font-family:Tele-Grotesk-NextRegular;font-size:15px;line-height:18px;margin:0 0 10px;word-spacing:1px}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contract-type{display:block;font-family:Tele-Grotesk-NextRegular;font-size:15px;line-height:18px;margin:0 0 40px;padding:0 0 0 36px;position:relative}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contract-type img{height:auto;left:0;max-width:26px;position:absolute;top:50%;transform:translateY(-50%);-moz-transform:translateY(-50%);-webkit-transform:translateY(-50%)}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li>.navPersonal a{display:block;font-family:Tele-Grotesk-NextRegular;font-size:15px;line-height:18px;margin:0 0 12px;padding:0;text-decoration:underline}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li>.navPersonal a:hover{text-decoration:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li>.navPersonal a:last-child{margin:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .navUser .navPersonal a{text-decoration:underline}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .navUser .navPersonal a:hover{text-decoration:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .navAccount>ul{width:100%;position:relative}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-add,html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-type{position:absolute;top:0;right:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-type{height:50%;margin-left:auto;padding:6px 0 10px 5px;border-left:solid 1px #d6d6d6}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-type>div{height:100%;display:flex;flex-wrap:wrap;align-content:flex-end}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-type>div .link-all-subscription{width:100%;color:#e20074;text-decoration:underline}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-add a:hover span,html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-type>div .link-all-subscription:hover{text-decoration:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-type>div>ul{padding-bottom:7px}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-type>div>ul>li{width:auto;padding:5px 11px 0 0}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-type>div>ul>li:first-child{padding-left:19px}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-type>div>ul>li>img{height:24px}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-add{top:50%;height:50%;border-left:solid 1px #d6d6d6;text-align:left}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-add:before{content:"";height:1px;width:100%;margin:-33px 0 0 -49px;position:absolute;background:#d6d6d6}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-add a{padding-top:32px;font-size:18px;line-height:18px;text-align:left}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-add a:hover{color:#333}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-add a img{width:24px;height:24px;max-height:24px;min-height:24px;padding:8px 6px 0 0;float:left}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-add a span{width:100px;display:inline-block;text-decoration:underline}
+html.responsiveFrame header#frameHeader #app-telekomfiok .btn{margin:13px 11px 0 0;cursor:pointer;padding:10px 20px 8px;font-family:Tele-Grotesk-NextUltra;font-size:15px;line-height:17px;text-transform:uppercase;text-decoration:none;display:inline-block;min-height:36px;min-width:36px;border:2px solid #e20074;text-indent:0;position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out}
+html.responsiveFrame header#frameHeader #app-telekomfiok a.btn:focus,html.responsiveFrame header#frameHeader #app-telekomfiok a.btn:hover,html.responsiveFrame header#frameHeader #app-telekomfiok em.btn:hover,html.responsiveFrame header#frameHeader #app-telekomfiok span.btn:hover{background-color:#e20074;color:#fff}
+html.responsiveFrame header#frameHeader #app-telekomfiok a.btn:focus{background-color:#e20074;color:#fff;outline:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok a.btn.active,html.responsiveFrame header#frameHeader #app-telekomfiok a.btn:active,html.responsiveFrame header#frameHeader #app-telekomfiok span.btn:active{background-color:#bf0a67;border-color:transparent;color:#fff}
+html.responsiveFrame header#frameHeader #app-telekomfiok .btn_gray{background-color:#fff;border:2px solid rgba(51,51,51,.6);color:#333}
+html.responsiveFrame header#frameHeader #app-telekomfiok .btn_gray:focus,html.responsiveFrame header#frameHeader #app-telekomfiok .btn_gray:hover{background-color:rgba(51,51,51,.6);border-color:transparent;color:#fff;outline:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok .btn_gray:active{border-color:transparent;background-color:rgba(51,51,51,.8);color:#fff}
+html.responsiveFrame header#frameHeader #app-telekomfiok .profilPic .btn_icon_profile{margin:0 6px 0 0}
+html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile{background:url(../img/my_profile_outline_magenta.svg) center center no-repeat;background-size:28px 28px;height:36px;overflow:hidden;padding:0;text-indent:-9999px;width:36px;-webkit-transition:opacity .3s ease-out;-moz-transition:opacity .3s ease-out;-ms-transition:opacity .3s ease-out;-o-transition:opacity .3s ease-out;transition:opacity .3s ease-out}
+html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:after,html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:before{opacity:0;-webkit-transition:opacity .3s ease-out;-moz-transition:opacity .3s ease-out;-ms-transition:opacity .3s ease-out;-o-transition:opacity .3s ease-out;content:'';height:34px;left:-1px;top:-1px;width:34px;position:absolute}
+html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:active{border:2px solid #bf0a67}
+html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:before{background:url(../img/my_profile_outline_white.svg) center center no-repeat #e20074;background-size:28px 28px;transition:opacity .3s ease-out}
+html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:active:before{background-color:#bf0a67}
+html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:after{background:url(../img/my_profile_filled_magenta_onmousepress.svg) center center no-repeat;background-size:28px 28px;transition:opacity .3s ease-out}
+html.responsiveFrame header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile.logged-in:before{background:url(../img/my_profile_filled_white.svg) center center no-repeat #e20074;background-size:28px 28px;content:'';height:34px;left:-1px;opacity:1;position:absolute;top:-1px;width:34px;-webkit-transition:opacity .3s ease-out;-moz-transition:opacity .3s ease-out;-ms-transition:opacity .3s ease-out;-o-transition:opacity .3s ease-out;transition:opacity .3s ease-out}
+html.responsiveFrame header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile{background:url(../img/my_profile_filled_magenta.svg) center center no-repeat #fff;background-size:28px 28px;border:2px solid #e20074}
+html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile.logged-in:before,html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile.logged-in:hover:before,html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:hover:before,html.responsiveFrame header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile:before{opacity:1}
+html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile.logged-in:hover,html.responsiveFrame header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile:hover{background:url(../img/my_profile_filled_magenta.svg) center center no-repeat #fff;background-size:28px 28px;border:2px solid #e20074}
+html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile.logged-in:active:after,html.responsiveFrame header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile:active:after{opacity:1}
+.touch html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:hover{background-color:#fff}
+.touch html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile.logged-in:hover:before,.touch html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:hover:after,.touch html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile:hover:before,.touch html.responsiveFrame header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile:hover:after{opacity:0}
+.touch html.responsiveFrame header#frameHeader #app-telekomfiok em.btn.btn_icon_profile.logged-in:hover:before,.touch html.responsiveFrame header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile:before,.touch html.responsiveFrame header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile:hover:before{opacity:1}
+.touch html.responsiveFrame header#frameHeader #app-telekomfiok.opened em.btn.btn_icon_profile:hover{background-color:#e20074}
+html.responsiveFrame header#frameHeader #app-telekomfiok a.link-m{padding:0 0 12px;font-family:Tele-Grotesk-NextRegular;font-size:15px;color:#333}
+html.responsiveFrame header#frameHeader #app-telekomfiok a.link-m.active{color:#e20074;text-decoration:none;font-family:Tele-Grotesk-NextBold}
+html.responsiveFrame header#frameHeader #app-telekomfiok .btm{height:0;padding-bottom:0;overflow:hidden;display:block;font-family:Tele-Grotesk-NextRegular;font-size:15px;color:#333}
+html.responsiveFrame header#frameHeader #app-telekomfiok .btm.opened{height:auto;padding-bottom:12px;transition:all 0s ease-out}
+html.responsiveFrame header#frameHeader #app-telekomfiok .btn_with_text{padding:8px 18px 6px 50px;margin-right:0;text-indent:0;width:auto}
+html.responsiveFrame header#frameHeader #app-telekomfiok .btn_with_text.btn_icon_profile:after,html.responsiveFrame header#frameHeader #app-telekomfiok .btn_with_text.btn_icon_profile:before{left:12px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .btn_left{float:left}
+html.responsiveFrame header#frameHeader #app-telekomfiok .btn_right{float:right}
+html.responsiveFrame header#frameHeader #app-telekomfiok .notif.hide,html.responsiveFrame header#frameHeader #app-telekomfiok .notif.show,html.responsiveFrame header#frameHeader #app-telekomfiok .notif.update{-moz-border-radius:11px;-ms-border-radius:11px;-o-border-radius:11px;-webkit-border-radius:11px;background:#e20074;border-radius:11px;border:2px solid #fff;box-sizing:border-box;color:#fff;display:block;font-family:Tele-Grotesk-NextUltra;font-size:15px;line-height:18px;min-height:22px;min-width:22px;padding:0 5px 0 3px;text-align:center;text-indent:2px;z-index:10;position:absolute;right:-10px;opacity:1;top:-9px}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .usersubMenu,html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.opened .usersubMenu{background-clip:padding-box;background-color:#fff;border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,.12);display:inline-block;left:auto;max-width:100%;padding:24px;right:0;width:100%;box-sizing:border-box;position:absolute}
+html.responsiveFrame header#frameHeader #app-telekomfiok .notif.show{animation:show-up .3s ease-in}
+html.responsiveFrame header#frameHeader #app-telekomfiok .notif.update{animation:update .3s ease-in}
+html.responsiveFrame header#frameHeader #app-telekomfiok .notif.hide{animation:hide .3s ease-in;transition:visibility .3s ease-in-out,opacity .3s ease-in-out;visibility:hidden}
+@keyframes show-up{0%{transform:scale(0)}
+50%{transform:scale(1.2)}
+100%{transform:scale(1)}
+}
+@keyframes update{0%,100%{transform:scale(1)}
+50%{transform:scale(1.2)}
+}
+@keyframes hide{0%{transform:scale(1)}
+100%{transform:scale(0)}
+}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.opened .usersubMenu{visibility:visible;z-index:1;height:auto}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .usersubMenu{bottom:initial;visibility:hidden;z-index:-1}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .usersubMenu small{display:block;font-family:Tele-Grotesk-NextRegular;line-height:1.2;font-size:15px}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .usersubMenu ul li{width:100%;float:none;text-align:left;padding:0;box-sizing:border-box;list-style-type:none}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .usersubMenu ul{margin:15px 0 0;padding:0;overflow:hidden}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .usersubMenu li{list-style-type:none}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .usersubMenu ul li h4{font-family:Tele-Grotesk-NextBold;font-size:18px;font-weight:400;margin-bottom:0}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .usersubMenu ul li h4 .new-label.new-label{background:#e20074;border-radius:16px;color:#fff;display:inline-block;font-size:12px;line-height:16px;margin-left:10px;padding:4px 12px;position:absolute}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .usersubMenu img{width:26px;height:26px;float:left;padding-right:20px}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .usersubMenu img.is-desktop.is-desktop{display:none}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .usersubMenu img.is-mobile.is-mobile{display:block}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .usersubMenu ul li a img{height:26px;width:26px;max-height:26px;min-height:26px}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .welcomeText{margin:0;color:#e20074;font-family:Tele-Grotesk-NextRegular;font-size:30px;font-weight:400;line-height:36px;padding:0 10px}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .welcomeTextEngagementLevel{padding:0 0 0 12px}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .navAccount ul li a{display:block;height:auto;padding:10px;width:100%}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .navAccount ul li a:hover{text-decoration:none}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .navUser nav a{color:#333;display:block;width:100%;font-size:15px;font-family:Tele-Grotesk-NextRegular;padding-top:4.8px;padding-bottom:4.8px;padding-left:11px}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .navUser nav a:hover{text-decoration:none}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .navPersonal{float:none;padding-bottom:0}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .profilName,html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .profilPic+li{display:none}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .new-profil{width:auto}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .tLogin{list-style-type:none}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-list>ul{display:block}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li{border-bottom:1px solid #cecece;border-right:none;width:100%;padding:14px 16px 18px}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li:last-child{border-bottom:1px solid #cecece}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contract-desc,html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li>h3{height:auto!important;margin:0 0 10px}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contract-type{height:auto!important;margin:0 0 20px;padding:0 0 0 27px}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contract-type img{max-width:20px}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li>.navPersonal{margin:0;padding:0}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li>.navPersonal a{float:left;width:auto;margin:0 15px 0 0}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .usersubMenu .navUser .navPersonal{width:100%}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-add,html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-type{position:relative}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-type{border:none}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-type>div .link-all-subscription{padding:13px 0 0 10px}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-type>div>ul{margin-top:0}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-type>div>ul>li:first-child{padding-left:14px}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-type>div>ul>li img{padding-right:0}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-add{padding:25px 0;margin-top:10px;border-top:solid 1px #d6d6d6;border-bottom:solid 1px #d6d6d6;border-left:none}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-add:before{display:none}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-add a{padding:0 0 0 10px}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-add a span{width:auto}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tf-user .contracts-add a img{padding-top:0}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .btn_with_text{padding:5px;text-indent:-9999px}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .btn_icon_profile,html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .btn_icon_profile.btn_with_text,html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .btn_icon_profile.logged-in,html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .btn_icon_profile.loggedout,html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .profilPicWrap .btn_icon_profile{margin-right:0}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .profilPicWrap img{margin-top:0}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .btn_with_text.btn_icon_profile:after,html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .btn_with_text.btn_icon_profile:before{left:0}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok .btn_gray{display:block;float:none;margin-left:auto}
+html.responsiveFrame header#frameHeader.mobile-version #app-telekomfiok.tLogin{float:left}
+}
+@media (max-width:959px){html.responsiveFrame header#frameHeader #app-telekomfiok .navAccount ul li a:hover,html.responsiveFrame header#frameHeader #app-telekomfiok .navUser nav a:hover{text-decoration:none}
+header#frameHeader #app-telekomfiok #logoutSubmit{margin-left:0}
+header#frameHeader #app-telekomfiok .btn.btn_icon_profile{background:url(../img/user-login-magenta.svg) 15px center no-repeat;border:none!important;padding:0 20px 0 30px!important}
+header#frameHeader #app-telekomfiok .btn.btn_icon_profile:active,header#frameHeader #app-telekomfiok .btn.btn_icon_profile:focus,header#frameHeader #app-telekomfiok .btn.btn_icon_profile:hover{background-color:transparent!important}
+header#frameHeader #app-telekomfiok .btn_with_text{padding:5px;text-indent:-9999px}
+header#frameHeader #app-telekomfiok .btn_icon_profile{margin:0}
+header#frameHeader #app-telekomfiok .btn_with_text.btn_icon_profile:after,header#frameHeader #app-telekomfiok .btn_with_text.btn_icon_profile:before{left:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu,html.responsiveFrame header#frameHeader #app-telekomfiok.opened .usersubMenu{background-clip:padding-box;background-color:#fff;border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,.12);display:inline-block;left:auto;max-width:100%;padding:24px;right:0;width:100%;box-sizing:border-box;position:absolute}
+header#frameHeader #app-telekomfiok .btn_gray{float:left;margin-left:11px}
+html.responsiveFrame header#frameHeader #app-telekomfiok.opened .usersubMenu{visibility:visible;z-index:1;height:auto}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu{bottom:initial;visibility:hidden;z-index:-1}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu small{display:block;font-family:Tele-Grotesk-NextRegular;line-height:1.2;font-size:15px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu ul li{width:100%;float:none;text-align:left;padding:0;box-sizing:border-box;list-style-type:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu ul{margin:15px 0 0;padding:0;overflow:hidden}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu li{list-style-type:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu ul li h4{font-family:Tele-Grotesk-NextBold;font-size:18px;font-weight:400;margin-bottom:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu ul li h4 .new-label.new-label{background:#e20074;border-radius:16px;color:#fff;display:inline-block;font-size:12px;line-height:16px;margin-left:10px;padding:4px 12px;position:absolute}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu img{width:26px;height:26px;float:left;padding-right:20px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu img.is-desktop.is-desktop{display:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu img.is-mobile.is-mobile{display:block}
+html.responsiveFrame header#frameHeader #app-telekomfiok .usersubMenu ul li a img{height:26px;width:26px;max-height:26px;min-height:26px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .welcomeText{margin:0;color:#e20074;font-family:Tele-Grotesk-NextRegular;font-size:30px;font-weight:400;line-height:36px;padding:0 10px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .welcomeTextEngagementLevel{padding:0 0 0 12px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .navAccount ul li a{display:block;height:auto;padding:10px;width:100%}
+html.responsiveFrame header#frameHeader #app-telekomfiok .navUser nav a{color:#333;display:block;width:100%;font-size:15px;font-family:Tele-Grotesk-NextRegular;padding-top:4.8px;padding-bottom:4.8px;padding-left:11px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .navPersonal{float:none;padding-bottom:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok .profilName,html.responsiveFrame header#frameHeader #app-telekomfiok .profilPic+li{display:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok .new-profil{width:auto}
+html.responsiveFrame header#frameHeader #app-telekomfiok .tLogin{list-style-type:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-list>ul{display:block}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li{border-bottom:1px solid #cecece;border-right:none;width:100%;padding:14px 16px 18px}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li:last-child{border-bottom:1px solid #cecece}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contract-desc,html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li>h3{height:auto!important;margin:0 0 10px}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contract-type{height:auto!important;margin:0 0 20px;padding:0 0 0 27px}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contract-type img{max-width:20px}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li>.navPersonal{margin:0;padding:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-list.contracts-list>ul>li>.navPersonal a{float:left;width:auto;margin:0 15px 0 0}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .usersubMenu .navUser .navPersonal{width:100%}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-add,html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-type{position:relative}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-type{border:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-type>div .link-all-subscription{padding:13px 0 0 10px}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-type>div>ul{margin-top:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-type>div>ul>li:first-child{padding-left:14px}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-type>div>ul>li img{padding-right:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-add{padding:25px 0;margin-top:10px;border-top:solid 1px #d6d6d6;border-bottom:solid 1px #d6d6d6;border-left:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-add:before{display:none}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-add a{padding:0 0 0 10px}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-add a span{width:auto}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tf-user .contracts-add a img{padding-top:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok .btn_with_text{padding:5px;text-indent:-9999px}
+html.responsiveFrame header#frameHeader #app-telekomfiok .btn_icon_profile,html.responsiveFrame header#frameHeader #app-telekomfiok .btn_icon_profile.btn_with_text,html.responsiveFrame header#frameHeader #app-telekomfiok .btn_icon_profile.logged-in,html.responsiveFrame header#frameHeader #app-telekomfiok .btn_icon_profile.loggedout,html.responsiveFrame header#frameHeader #app-telekomfiok .profilPicWrap .btn_icon_profile{margin-right:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok .profilPicWrap img{margin-top:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok .btn_with_text.btn_icon_profile:after,html.responsiveFrame header#frameHeader #app-telekomfiok .btn_with_text.btn_icon_profile:before{left:0}
+html.responsiveFrame header#frameHeader #app-telekomfiok .btn_gray{display:block;float:none;margin-left:auto}
+html.responsiveFrame header#frameHeader #app-telekomfiok.tLogin{float:left}
+html.responsiveFrame .frameconfig-menubg--transparent.frameconfig-menucolor--dark header#frameHeader #app-telekomfiok .btn.btn_icon_profile{background:url(../img/user-login.svg) 15px center no-repeat!important;border:none;padding:0 20px 0 30px}
+html.responsiveFrame .frameconfig-menubg--transparent.frameconfig-menucolor--dark header#frameHeader #app-telekomfiok.opened .btn.btn_icon_profile,html.responsiveFrame .frameconfig-menubg--transparent.frameconfig-menucolor--dark header#frameHeader .opened #app-telekomfiok .btn.btn_icon_profile{background:url(../img/user-login-magenta.svg) 15px center no-repeat!important;border:none!important;padding:0 20px 0 30px!important}
+}
+@media (min-width:960px) and (max-width:1151px){header#frameHeader #app-telekomfiok .btn.btn_icon_profile{line-height:41px!important}
+}
